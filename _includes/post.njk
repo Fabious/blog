@@ -1,0 +1,13 @@
+---
+layout: base.njk
+---
+<article>
+  <h1>{{ title }}</h1>
+  <p class="meta">
+    <time datetime="{{ page.date.toISOString() }}">{{ page.date | formatDate }}</time>
+    · {{ content | readingTime }} min
+    · {{ lang | langMark }}
+  </p>
+{{ content | safe }}
+  <p class="back"><a href="/">← Home</a></p>
+</article>

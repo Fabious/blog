@@ -1,0 +1,72 @@
+:root {
+  --bg: #faf9f5;
+  --fg: #1f1f1f;
+  --muted: #6f6a63;
+  --accent: #c96442;
+  --rule: #e5e1d8;
+  --code-bg: #f1efe8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--fg);
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header { font-size: 0.85rem; margin-bottom: 3rem; }
+.site-header a { color: var(--fg); }
+
+.site-footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Home */
+.home { display: grid; gap: 2rem; }
+.home aside h1 { font-size: 1.5rem; margin: 0 0 0.5rem; }
+.home aside p { color: var(--muted); margin: 0; }
+
+.posts { list-style: none; margin: 0; padding: 0; }
+.posts li {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--rule);
+}
+.posts time { color: var(--muted); font-size: 0.85rem; }
+.posts .meta { color: var(--muted); font-size: 0.85rem; }
+
+@media (min-width: 48rem) {
+  .home { grid-template-columns: 14rem 1fr; gap: 3rem; }
+  .posts li {
+    grid-template-columns: 8rem 1fr auto;
+    align-items: baseline;
+    gap: 1rem;
+  }
+  .posts .meta { text-align: right; white-space: nowrap; }
+}
+
+/* Post */
+article { max-width: 65ch; }
+article h1 { font-size: 1.6rem; line-height: 1.3; margin: 0 0 0.5rem; }
+article .meta { color: var(--muted); font-size: 0.85rem; margin: 0 0 2rem; }
+article h2 { font-size: 1.15rem; margin-top: 2.5rem; }
+article pre, article code { background: var(--code-bg); }
+article code { padding: 0.1em 0.3em; }
+article pre { padding: 1rem; overflow-x: auto; }
+article pre code { padding: 0; }
+article blockquote { margin: 0; padding-left: 1rem; border-left: 2px solid var(--rule); color: var(--muted); }
+article .back { margin-top: 3rem; }

@@ -1,6 +1,6 @@
 ---
 title: "Il y a trop d'outils IA, j'installe quoi ?"
-date: 2026-11-09
+date: 2026-11-17
 lang: fr
 description: "Comment adapter son environnement de travail quand on lit plus de code qu'on n'en écrit."
 ---

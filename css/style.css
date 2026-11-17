@@ -68,5 +68,6 @@ article pre, article code { background: var(--code-bg); }
 article code { padding: 0.1em 0.3em; }
 article pre { padding: 1rem; overflow-x: auto; }
 article pre code { padding: 0; }
+article img { max-width: 100%; height: auto; }
 article blockquote { margin: 0; padding-left: 1rem; border-left: 2px solid var(--rule); color: var(--muted); }
 article .back { margin-top: 3rem; }

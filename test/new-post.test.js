@@ -5,6 +5,9 @@ import os from "node:os";
 import path from "node:path";
 import { slugify, createPost } from "../lib/new-post.js";
 
+// The author writes from France: "today" in a file name is the local day.
+process.env.TZ = "Europe/Paris";
+
 const tmpDir = () => fs.mkdtempSync(path.join(os.tmpdir(), "new-post-"));
 const date = new Date("2026-11-17T10:00:00Z");
 
@@ -22,6 +25,13 @@ test("createPost writes a dated draft with prefilled frontmatter", () => {
     content.startsWith('---\ntitle: "Écrire, c\'est relire !"\ndate: 2026-11-17\nlang: fr\ndraft: true\n---\n\n'),
     content,
   );
+});
+
+test("createPost uses the local day, not the UTC day", () => {
+  const lateEvening = new Date("2026-11-17T23:30:00Z"); // 00:30 on the 18th in Paris
+  const file = createPost({ title: "Minuit", date: lateEvening, dir: tmpDir() });
+  assert.equal(path.basename(file), "2026-11-18-minuit.md");
+  assert.ok(fs.readFileSync(file, "utf8").includes("\ndate: 2026-11-18\n"));
 });
 
 test("createPost honours lang", () => {

@@ -9,6 +9,7 @@ export default function config(eleventyConfig) {
   }
 
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("img");
 
   eleventyConfig.addPreprocessor("drafts", "*", (data) => {
     if (data.draft) return false;

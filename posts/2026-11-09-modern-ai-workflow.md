@@ -26,7 +26,7 @@ On naviguait dans le code. D'où provient la définition, recherche avancée pou
 massive à l'aide des outils dédiés. Parfois on utilisait le débuggeur intégré (perso je mettais des console.log partout, TMTC).
 
 Au début de l'IA la confiance dans le code généré n'était pas totale. Nous codions toujours.
-Nous promptions (verbe du 1er groupe) de façon occasionnelle. L'éditeur de code classique (PHPStorm, VScode, Neovim) intégrait simplement l'IA avec des plugins.
+Nous promptions de façon occasionnelle. L'éditeur de code classique (PHPStorm, VScode, Neovim) intégrait simplement l'IA avec des plugins.
 
 Puis la confiance dans le code généré a augmenté. Qui ne s'est jamais dit : "ah bah là c'est encore mieux que ce que j'aurais fait..." ? 
 Nous sommes passés de l'art du prompting à l'orchestration d'agents IA : le développement agentique. 
@@ -36,11 +36,11 @@ vérifier l'architecture d'un projet, garder une trace des prompts qui ont été
 
 De nouveaux outils sont apparus pour répondre à ces besoins.
 
-
 ## Commencez par l'outil natif de l'abonnement que vous avez déjà
 
 En parallèle de l'évolution des outils traditionnels, on voit apparaître de nouveaux outils conçus pour dompter les agents.
 Ce sont les ADE : les Agentic Development Environment.
+
 Dans ces outils on retrouve bien souvent :
 - une vue d'ensemble des agents. Pour voir leur état en un clin d'oeil : au travail, bloqué sur une question, terminé. 
 - une interface pour la revue de code. Pratique vu la quantité de code généré, et voir les diffs de chaque agent.
@@ -52,11 +52,10 @@ La différence majeure entre un IDE et un ADE est donc : l'un est optimisé pour
 
 On peut classer les différents outils en 4 catégories : 
 
-- les ADE natifs, fournis par les éditeurs de modèles : [Claude Code Desktop](https://code.claude.com/docs/en/desktop), [l'app Codex dans ChatGPT](https://chatgpt.com/codex/), [Google Antigravity](https://antigravity.google/), [GitHub Copilot app](https://github.com/features/copilot)
+- les ADE natifs, fournis par les éditeurs de modèles : [Claude Code Desktop](https://code.claude.com/docs/en/desktop), [Codex de ChatGPT](https://chatgpt.com/codex/), [Google Antigravity](https://antigravity.google/), [GitHub Copilot app](https://github.com/features/copilot)
 - les "IDE + ADE", le mix des deux avec éditeurs intégrés : [Cursor](https://cursor.com/), [Zed](https://zed.dev/)
 - les terminal-first ADE : [Warp](https://www.warp.dev/), [Herdr](https://github.com/herdrdev/herdr)
 - les "Agent-agnostic desktop orchestrator" : [Orca](https://github.com/stablyai/orca), [Paradev](https://paradev.com/)
-
 
 Le plus simple pour commencer : prenez l'ADE fourni avec votre abonnement.
 Ils sont bien maintenus car qui dit un bon ADE, dit plus de clients susceptibles d'utiliser leurs modèles.
@@ -66,8 +65,6 @@ Le défaut est que forcément c'est un logiciel propriétaire et que notre édit
 
 Cela reste quand même, je trouve, la meilleure solution pour débuter et prendre de l'expérience sur le développement agentique.
 Et il est toujours possible de changer d'outil quand le besoin se fera sentir.
-
-
 
 ## Changez d'outil quand le travail change
 
@@ -97,4 +94,4 @@ Cela répond à mes propres besoins d'aujourd'hui, ce setup continuera d'évolue
 
 Si vous rencontrez un mur, si vous sentez une friction ou tout simplement votre travail évolue, testez d'autres outils.
 N'hésitez pas à revoir votre environnement de travail. Ce changement d'ère est le bon moment pour faire un ménage de printemps.
-Pour commencer simplement, installez l'application native à votre abonnement : Claude Code Desktop, l'app Codex dans ChatGPT, Google Antigravity ou GitHub Copilot app.
+Pour commencer simplement, installez l'application native à votre abonnement : Claude Code Desktop, Codex de ChatGPT, Google Antigravity ou GitHub Copilot app.

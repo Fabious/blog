@@ -16,6 +16,9 @@ remove the `draft` line (or set it to `false`). For an English post, pass
 
 Optional `description:` becomes the page's meta description.
 
+Images go in `img/` and are referenced with an absolute path:
+`![alt text](/img/name.png)`.
+
 ## Preview
 
 ```bash

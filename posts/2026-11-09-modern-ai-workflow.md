@@ -54,14 +54,14 @@ Maintenant avec l'IA, écrire efficacement du code a disparu pour faire place à
 
 ## Continuez de prendre soin de votre workbench
 
-Mon nouveau setup, en novembre 2026, est devenu un "workflow hybride" : Claude Code Desktop pour le GUI (Graphical user interface) car niveau orchestration l'expérience "out of the box" est niquel. Moi qui ne suis pas quelqu'un de très organisé de base, ici toutes les discussions sont bien rangées automatiquement. Chaque agent et leurs sous-agents sont répertoriés par projet. On a donc un poste de pilotage à IA efficient, sans besoin de configurer grand chose.
+Mon nouveau setup, en novembre 2026, est devenu un "workflow hybride" : Claude Code Desktop pour le GUI (Graphical user interface) car niveau orchestration l'expérience "out of the box" est niquel. Moi qui ne suis pas quelqu'un de très organisé de base, ici toutes les discussions sont bien rangées automatiquement. Chaque agent et ses sous-agents sont répertoriés par projet. On a donc un poste de pilotage à IA efficient, sans besoin de configurer grand chose.
 
 J'ai gardé mon terminal et ses outils ([voir mes dotfiles](https://github.com/Fabious/dotfiles)). J'ai juste fait évoluer en ajoutant l'outil en ligne de commande (CLI) Claude Code tout en gardant :
 - [Zellij](https://github.com/zellij-org/zellij) pour le multiplexing et la gestion des fenêtres : prompts, suivi de logs, etc.
 - [Neovim](https://github.com/neovim/neovim) pour l'édition de code rapide
 - [Lazygit](https://github.com/jesseduffield/lazygit) pour tout ce qui concerne Git (le goat à mes yeux)
 
-Je lis le code généré par les agents directement dans l'app Claude, et si besoin je lance Neovim pour naviguer ou éditer le code.
+Je lis le code généré par les agents directement dans Claude Code Desktop, et si besoin je lance Neovim pour naviguer ou éditer le code.
 
 Cela répond à mes propres besoins d'aujourd'hui, ce setup continuera d'évoluer.
 

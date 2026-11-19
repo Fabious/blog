@@ -14,7 +14,7 @@ AI has revolutionized how we work: we write much less code. Sometimes none. We m
 
 Let's take a step back to really understand why we must upgrade our tools.
 
-**Before:** we wrote lots of code. We had to understand what was happening in our program. We navigated in the code: where does this definition come from, used advanced search to find every call to a function, mass refactoring with dedicated tools. Sometimes we needed a good debugger (though I wrote `console.log`, no shame).
+**Before:** we wrote lots of code. We had to understand what was happening in our program. We navigated through the code: where does this definition come from, used advanced search to find every call to a function, mass refactoring with dedicated tools. Sometimes we needed a good debugger (though I wrote `console.log`, no shame).
 
 In the early days, we didn't fully trust generated code. We still wrote code. We prompted here and there. The traditional editor (PHPStorm, VSCode, Neovim) integrated AI through plugins.
 Then we started to have more trust in what the AI was doing. Does the "ok the code is even better than what I would have done" ring a bell? That's when we transitioned from the art of prompting to agent orchestration: agentic development.

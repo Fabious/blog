@@ -39,7 +39,7 @@ On peut classer les différents outils en 4 catégories :
 
 - les ADE natifs, fournis par les éditeurs de modèles : [Claude Code Desktop](https://code.claude.com/docs/en/desktop), [Codex de ChatGPT](https://chatgpt.com/codex/), [Google Antigravity](https://antigravity.google/), [GitHub Copilot app](https://github.com/features/copilot)
 - les "IDE + ADE", le mix des deux avec éditeurs intégrés : [Cursor](https://cursor.com/), [Zed](https://zed.dev/)
-- les terminal-first ADE : [Warp](https://www.warp.dev/), [Herdr](https://github.com/herdrdev/herdr)
+- les terminal-first ADE : [Warp](https://www.warp.dev/). Et si vous vivez dans le terminal, [cmux](https://cmux.com/) (macOS) et [Herdr](https://github.com/herdrdev/herdr), des terminaux pensés pour les agents
 - les "Agent-agnostic desktop orchestrator" : [Orca](https://github.com/stablyai/orca), [Paradev](https://paradev.com/), [T3 Code](https://t3.codes/)
 
 Le plus simple pour commencer : prenez l'ADE fourni avec votre abonnement. Ils sont bien maintenus car qui dit un bon ADE, dit plus de clients susceptibles d'utiliser leurs modèles. Ils ont des features qui facilitent la vie de dev IA : déjà payé, pas de configuration, browser intégré, connecteurs MCP, synchronisation avec son téléphone pour pouvoir lancer un prompt depuis n'importe où (😉). Le défaut est que forcément c'est un logiciel propriétaire et que notre éditeur est lié au modèle que l'on utilise. Si on change de modèle, il faut changer d'éditeur. Si cela vous gêne, [OpenCode Desktop](https://opencode.ai/desktop) offre la même expérience en open source, avec le modèle de votre choix.

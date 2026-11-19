@@ -38,7 +38,7 @@ The code editor is sometimes entirely gone. No need to write. The main differenc
 We can identify four kinds of ADE:
 - native ADEs, shipped by the model vendors: [Claude Code Desktop](https://code.claude.com/docs/en/desktop), [Codex in ChatGPT](https://chatgpt.com/codex/), [Google Antigravity](https://antigravity.google/), [GitHub Copilot app](https://github.com/features/copilot)
 - "IDE + ADE", a mix of both with a built-in editor: [Cursor](https://cursor.com/), [Zed](https://zed.dev/)
-- terminal-first ADEs: [Warp](https://www.warp.dev/), [Herdr](https://github.com/herdrdev/herdr)
+- terminal-first ADEs: [Warp](https://www.warp.dev/). And if you live in the terminal, [cmux](https://cmux.com/) (macOS) and [Herdr](https://github.com/herdrdev/herdr), terminals built for agents
 - "agent-agnostic desktop orchestrators": [Orca](https://github.com/stablyai/orca), [Paradev](https://paradev.com/), [T3 Code](https://t3.codes/)
 
 The easy start: take the ADE that comes with your subscription. They are well maintained, because if their tool is good, they attract more subscribers.

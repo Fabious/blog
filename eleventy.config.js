@@ -4,7 +4,7 @@ import { readingTime, formatDate, langMark } from "./lib/filters.js";
 export default function config(eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
 
-  for (const ignored of ["docs/**", "test/**", "lib/**", "README.md", ".superpowers/**"]) {
+  for (const ignored of ["test/**", "lib/**", "README.md"]) {
     eleventyConfig.ignores.add(ignored);
   }
 
